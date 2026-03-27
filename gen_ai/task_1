@@ -1,0 +1,16 @@
+
+Task 1: Conceptual Understanding
+
+"Love" vs "love": In NLP, computers often treat these as two different tokens because they have different ASCII values. It splits the statistical "weight" of the word.
+
+
+Stopwords: If they aren't removed, the analysis might be skewed by high-frequency words like "the", "is" and "and". This makes it harder for a model to focus on the content words that actually define the meaning of the sentence.
+
+
+When Stopword Removal is Harmful: Sentiment Analysis: In "I am not happy," removing "not" (a stopword) changes the meaning to "I am happy".
+
+
+Search Queries: In a phrase like "To be or not to be," removing stopwords would leave almost nothing, losing the entire context.
+
+
+Stemming vs Lemmatization: Stemming is a "crude" process that chops off the ends of words (e.g., "studies" becomes "studi"). Lemmatization is more sophisticated; it uses a dictionary to find the root word (e.g., "better" becomes "good") based on its part of speech.
